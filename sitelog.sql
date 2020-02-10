@@ -10,7 +10,7 @@ GO
 -- =============================================
 ALTER PROCEDURE [dbo].[fv_CustomLinkActivity] 
 	-- Add the parameters for the stored procedure here
-	@pSessionId VARCHAR(15)
+	@pSessionId VARCHAR(150)
 	,@pClientId INT
 	,@pUserId INT
 	,@pUserIp VARCHAR(21)
